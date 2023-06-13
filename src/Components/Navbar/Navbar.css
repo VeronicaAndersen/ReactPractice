@@ -1,0 +1,21 @@
+:root{
+    --primary: #a3e2db;
+    --secondary: #ff98c6;
+}
+*{
+    margin: 0;
+}
+.navbar{
+    background-color: var(--primary);
+    width: 100vw;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: #1c1c1c;
+}

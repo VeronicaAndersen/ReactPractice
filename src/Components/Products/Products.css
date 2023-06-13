@@ -1,0 +1,27 @@
+img{
+    width: 60px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.product-card{
+    background-color: #fff;
+    box-shadow: -6px 6px 5px -3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: #a3e2db;
+    box-shadow: -6px 6px 5px -3px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+}

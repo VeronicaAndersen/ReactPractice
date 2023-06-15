@@ -16,15 +16,18 @@ const Product = () => {
     useEffect(() => {
         fetchInfo();
     }, []);
-
+// console.log(data.rating.rate);
     return (
         <>
-            <div>Product</div>
+
             <div className='card'>
                 <img src={data.image} alt={data.title + ' image'} />
                 <h4>{data.title}</h4>
                 <p>{data.description}</p>
+                <p><em>{data.category}</em></p>
                 <p>{data.price} €</p>
+                {/* <p>{data.rating.rate} of 5</p> */}
+                <button>Add to cart</button>
             </div>
         </>
     )
